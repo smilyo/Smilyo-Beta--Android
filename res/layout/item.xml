@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="TITLE"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Summary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="italic" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Author"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+</LinearLayout>
