@@ -1,15 +1,19 @@
-Smilyo-Beta--Android
+# Smilyo Beta for Android
 ====================
-
-Developed by Ankit Karnany, Smilyo presents to you its first application.
-Get exclusive content from Smilyo.com right on your device!!
-Now with a fresh look and feel!
-
--- Exclusive access to Smilyo's Edu Network. Simply choose the colleges you want to view posts for.
--- Smilyo Poems
--- Smilyo Articles
-
-Previous Contributions by:
-Vinodkumar Mundlamuri
-
-To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main
+<p> </p>
+<p>Developed by Ankit Karnany, Smilyo presents to you its first application.</p>
+<p>Get exclusive content from Smilyo.com right on your device!</p>
+<p>Now with a fresh look and feel!</p>
+<p> </p>
+<ol>
+<li>Exclusive access to Smilyo's Edu Network. Simply choose the colleges you want to view posts for.</li>
+<li>Smilyo Poems</li>
+<li>Smilyo Articles</li>
+</ol>
+<p> </p>
+<p>Suggestions / Comments invited.</p>
+<p> </p>
+<p>Previous Contributions by:</p>
+<p>Vinodkumar Mundlamuri</p>
+<p> </p>
+<p>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</p>
