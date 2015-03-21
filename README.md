@@ -11,7 +11,7 @@
 <li>Smilyo Articles</li>
 </ol>
 <p> </p>
-<p>Suggestions / Comments invited.</p>
+<p><b>Suggestions / Comments invited.</b></p>
 <p> </p>
 <p>
 Previous Contributions by:
@@ -20,4 +20,4 @@ Previous Contributions by:
 </ul>
 </p>
 <p> </p>
-<p>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</p>
+<p><i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i></p>
