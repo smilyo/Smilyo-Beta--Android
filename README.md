@@ -14,9 +14,9 @@
 <p><b>Suggestions / Comments invited.</b></p>
 <p> </p>
 ====================
-Previous Contributions by:
+<b>Previous Contributions by:</b>
 <ul>
-<li>Vinodkumar Mundlamuri</li>
+<li>Vinodkumar Mundlamuri
 </ul>
 ====================
 <i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i>
