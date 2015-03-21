@@ -20,4 +20,5 @@ Previous Contributions by:
 </ul>
 </p>
 <p> </p>
-<p><i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i></p>
+====================
+<i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i>
