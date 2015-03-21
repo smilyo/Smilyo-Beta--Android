@@ -13,12 +13,10 @@
 <p> </p>
 <p><b>Suggestions / Comments invited.</b></p>
 <p> </p>
-<p>
+====================
 Previous Contributions by:
 <ul>
 <li>Vinodkumar Mundlamuri</li>
 </ul>
-</p>
-<p> </p>
 ====================
 <i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i>
