@@ -6,9 +6,9 @@
 <p>Now with a fresh look and feel!</p>
 <p> </p>
 <ol>
-<li>Exclusive access to Smilyo's Edu Network. Simply choose the colleges you want to view posts for.</li>
-<li>Smilyo Poems</li>
-<li>Smilyo Articles</li>
+<li>Exclusive access to Smilyo's Edu Network. Simply choose the colleges you want to view posts for.
+<li>Smilyo Articles
+<li>Smilyo Poems
 </ol>
 <p> </p>
 <p><b>Suggestions / Comments invited.</b></p>
