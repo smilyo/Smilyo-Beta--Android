@@ -43,7 +43,7 @@ public class CollegePortal extends Activity {
 
 		lists = (ListView) findViewById(R.id.portallist);
 
-		new JSONParse("") // Sample URL
+		new JSONParse("http://smilyo.com/app/get_edunetwork_portals.php") // Sample URL
 				.execute();
 
 		adapter = new ArrayAdapter<String>(this,

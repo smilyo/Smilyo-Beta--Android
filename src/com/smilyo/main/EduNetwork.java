@@ -80,7 +80,7 @@ public class EduNetwork extends Fragment {
 
 			rootView = inflater.inflate(R.layout.articles, container, false);
 
-			url = "" // Sample URL
+			url = "http://smilyo.com/app/get_edunetwork_feed.php?limit=" // Sample URL
 					+ Integer.toString(currentPage) + "&ids=" + id;
 
 			lists = (ListView) rootView.findViewById(R.id.list);
@@ -115,7 +115,8 @@ public class EduNetwork extends Fragment {
 
 							currentPage++;
 
-							new JSONParse(url).execute();
+							new JSONParse("http://smilyo.com/app/get_edunetwork_feed.php?limit=" // Sample URL
+									+ Integer.toString(currentPage) + "&ids=" + id).execute();
 
 						}
 					}

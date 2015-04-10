@@ -78,7 +78,7 @@ public class MainActivity extends Activity {
 
 		// This is used to execute the async task in the background. This gets
 		// the data from the json menu_item.php.
-		new JSONParse().execute();
+		//new JSONParse().execute();
 
 		// This is used to save the data of the result variable so that it is
 		// not lost when the app is closed.
@@ -329,7 +329,7 @@ public class MainActivity extends Activity {
 			try {
 
 				String jsonData = json
-						.getJSONFromUrl(""); //Sample URL
+						.getJSONFromUrl("http://www.smilyo.com/app/menu_item.php"); //Sample URL
 
 				JSONObject jObj = new JSONObject(jsonData);
 
