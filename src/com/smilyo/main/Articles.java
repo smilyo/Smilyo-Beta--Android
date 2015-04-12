@@ -57,7 +57,7 @@ public class Articles extends Fragment {
 
 		// Setting the url of the json file in the smilyo database to this
 		// variable.
-		url = "http://smilyo.com/get_articles.php?limit=" // Sample URL
+		url = "" // Sample URL
 				+ Integer.toString(currentPage) + "&category="
 				+ Integer.toString(c);
 

@@ -78,7 +78,7 @@ public class MainActivity extends Activity {
 
 		// This is used to execute the async task in the background. This gets
 		// the data from the json menu_item.php.
-		//new JSONParse().execute();
+		new JSONParse().execute();
 
 		// This is used to save the data of the result variable so that it is
 		// not lost when the app is closed.
