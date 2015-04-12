@@ -2,7 +2,7 @@
 ====================
 <p> </p>
 <p>Note: URLs have been removed from the code for security concerns.</p>
-<p>Developed by Ankit Karnany, Smilyo presents to you its first application.</p>
+<p>Smilyo presents to you its first ever application.</p>
 <p>Get exclusive content from Smilyo.com right on your device!</p>
 <p>Now with a fresh look and feel!</p>
 <p> </p>
@@ -15,8 +15,9 @@
 <p><b>Suggestions / Comments invited.</b></p>
 <p> </p>
 ====================
-<b>Previous Contributions by:</b>
+<b>Contributors:</b>
 <ul>
+<li>Ankit Karnany
 <li>Vinodkumar Mundlamuri
 </ul>
 ====================
