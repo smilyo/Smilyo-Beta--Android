@@ -1,6 +1,7 @@
 # Smilyo Beta for Android
 ====================
 <p> </p>
+<p>Note: URLs have been removed from the code for security concerns.</p>
 <p>Developed by Ankit Karnany, Smilyo presents to you its first application.</p>
 <p>Get exclusive content from Smilyo.com right on your device!</p>
 <p>Now with a fresh look and feel!</p>
