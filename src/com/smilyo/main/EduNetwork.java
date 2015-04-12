@@ -16,6 +16,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -114,8 +115,8 @@ public class EduNetwork extends Fragment {
 						if (loadMore) {
 
 							currentPage++;
-
-							new JSONParse(url).execute();
+							new JSONParse("" // Sample URL
+									+ Integer.toString(currentPage) + "&ids=" + id).execute();
 
 						}
 					}
