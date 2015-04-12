@@ -329,7 +329,7 @@ public class MainActivity extends Activity {
 			try {
 
 				String jsonData = json
-						.getJSONFromUrl("http://www.smilyo.com/app/menu_item.php"); //Sample URL
+						.getJSONFromUrl(""); //Sample URL
 
 				JSONObject jObj = new JSONObject(jsonData);
 
