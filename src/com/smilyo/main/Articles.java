@@ -60,7 +60,7 @@ public class Articles extends Fragment {
 
 		// Setting the url of the json file in the smilyo database to this
 		// variable.
-		url = "http://smilyo.com/get_articles.php?limit=" // Sample URL
+		url = "" // Sample URL
 				+ Integer.toString(currentPage) + "&category="
 				+ Integer.toString(c);
 
@@ -173,8 +173,6 @@ public class Articles extends Fragment {
 			JSONParser json = new JSONParser();
 			String jsonData = json.getJSONFromUrl(url1);
 			jsonData=removeUTFCharacters(jsonData).toString();
-			Log.e("json is ", jsonData);
-			
 			try {
 				JSONArray jArray = new JSONArray(jsonData);
 				for (int i = 0; i < jArray.length(); i++) {
@@ -211,7 +209,7 @@ public class Articles extends Fragment {
 		StringBuffer buf = new StringBuffer(data.length());
 		while (m.find()) {
 		String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
-		m.appendReplacement(buf, Matcher.quoteReplacement(ch));
+		m.appendReplacement(buf, Matcher.quoteReplacement(""));
 		}
 		m.appendTail(buf);
 		return buf;
