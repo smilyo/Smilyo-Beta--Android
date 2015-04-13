@@ -1,8 +1,11 @@
 /** This class is used as the activity in which the pressed item of articles are shown. **/
 package com.smilyo.main;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -21,6 +24,12 @@ public class Body extends Activity {
 		body = (WebView) findViewById(R.id.body);
 		title.setText(getIntent().getStringExtra("title"));
 		author.setText(getIntent().getStringExtra("author"));
-		body.loadData(getIntent().getStringExtra("body"), "text/html", "utf-8");
+		String s =getIntent().getStringExtra("body");
+		//s=s.replaceAll("[\u0000-\u001f]", "");
+
+
+		Log.e("s is ", ""+s);
+		body.loadData(s, "text/html", "utf-8");
 	}
+
 }
