@@ -25,5 +25,4 @@ public class Body extends Activity {
 		author.setText(getIntent().getStringExtra("author"));
 		body.loadData(getIntent().getStringExtra("body"), "text/html", "utf-8");
 	}
-
 }

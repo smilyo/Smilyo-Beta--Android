@@ -172,7 +172,7 @@ public class Articles extends Fragment {
 
 			JSONParser json = new JSONParser();
 			String jsonData = json.getJSONFromUrl(url1);
-			jsonData=removeUTFCharacters(jsonData).toString();
+			jsonData = removeUTFCharacters(jsonData).toString();
 			try {
 				JSONArray jArray = new JSONArray(jsonData);
 				for (int i = 0; i < jArray.length(); i++) {
