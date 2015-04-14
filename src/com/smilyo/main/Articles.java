@@ -3,6 +3,8 @@ package com.smilyo.main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,6 +15,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -169,6 +172,7 @@ public class Articles extends Fragment {
 
 			JSONParser json = new JSONParser();
 			String jsonData = json.getJSONFromUrl(url1);
+			jsonData = removeUTFCharacters(jsonData).toString();
 			try {
 				JSONArray jArray = new JSONArray(jsonData);
 				for (int i = 0; i < jArray.length(); i++) {
@@ -199,4 +203,16 @@ public class Articles extends Fragment {
 			adapter.notifyDataSetChanged();
 		}
 	}
+	public static StringBuffer removeUTFCharacters(String data){
+		Pattern p = Pattern.compile("\\\\u(\\p{XDigit}{4})");
+		Matcher m = p.matcher(data);
+		StringBuffer buf = new StringBuffer(data.length());
+		while (m.find()) {
+		String ch = String.valueOf((char) Integer.parseInt(m.group(1), 16));
+		m.appendReplacement(buf, Matcher.quoteReplacement(""));
+		}
+		m.appendTail(buf);
+		return buf;
+		}
+	
 }

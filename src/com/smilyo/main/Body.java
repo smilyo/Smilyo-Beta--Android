@@ -1,8 +1,10 @@
 /** This class is used as the activity in which the pressed item of articles are shown. **/
 package com.smilyo.main;
 
+
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 import android.widget.TextView;
 
