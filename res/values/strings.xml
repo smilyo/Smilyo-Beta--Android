@@ -6,5 +6,16 @@
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
+    <string name="donate_main">Why donate to Smilyo?</string>
+    <string name="donate_quote">“We make a living by what we get, but make a life by what we give.”</string>
+	<string name="donate_text">Smilyo is working for financial inclusion of Slum Dwellers of Choona Bhatti Area near Kirti Nagar Metro Station since December, 2014. We have now employed a local resident to assist us in our initiative with a salary of Rs. 5000/- per month. Her work includes providing basic education to the residents and enable them to read and sign. This helps them avail various banking fascilities which are not for the uneducated like ATM Card. She has an additional duty to run a local bank help centre for providing financial literacy to the local residents and resolve their bank related issues.
 
+\n\nWe would need your help in sustaining her salary. You just need to pledge and send a minor amount of Rs. 100/- per month for this purpose. To donate, please contact us using the information given below.
+
+\n\nBank A/c No.	 	9130100119935126
+\nBank IFSC	 	UTIB0001910
+\nContact No	 	9818609955
+\nEmain	 	info@smilyo.com
+\nAddress	 	21A, IInd Floor, Nangli Razapur, Nizammudin East, New Delhi - 110013
+ </string>
 </resources>
