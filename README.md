@@ -1,24 +1,40 @@
-# Smilyo Beta for Android
-====================
-<p> </p>
-<p>Note: URLs have been removed from the code for security concerns.</p>
-<p>Smilyo presents to you its first ever application.</p>
-<p>Get exclusive content from Smilyo.com right on your device!</p>
-<p>Now with a fresh look and feel!</p>
+<h1>Smilyo Beta for Android</h1>
+<hr>
+<p> Note: URLs have been removed from the code for security concerns.</p>
+<p>This repository contains the source code for the Smilyo Android app.</p>
+<p>The app perform data synchronization with smilyo's server for accesseing exclusive content from Smilyo.com right on your device!</p>
+<p>With a elegant UI app entertains you with</p>
+>>>>>>> 59b7ef7d0bffe9a861ed29aa5721198856317442
 <p> </p>
 <ol>
-<li>Exclusive access to Smilyo's Edu Network. Simply choose the colleges you want to view posts for.
+<li>Exclusive access to Smilyo's Edu Network with a list of colleges options you can choose from
 <li>Smilyo Articles
 <li>Smilyo Poems
 </ol>
-<p> </p>
+<p><b>Building Instruction</b></p>
+<p>The project is available for Eclipse Bundle.<br>
+The Steps include  
+<ol>
+<li> Import the project.</li>
+<li> Use your sample links. </li>
+<li> Run Project </li>
+</ol>
+</p>
 <p><b>Suggestions / Comments invited.</b></p>
 <p> </p>
+
 ====================
 <b>Contributors:</b>
 <ul>
 <li>Ankit Karnany
 <li>Vinodkumar Mundlamuri
+=======
+<hr>
+<b>Previous Contributions by:</b>
+<ul>
+<li>Ankit Karnany</li>
+<li>Vinodkumar Mundlamuri</li>
+>>>>>>> 59b7ef7d0bffe9a861ed29aa5721198856317442
 </ul>
-====================
+<br>
 <i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i>
