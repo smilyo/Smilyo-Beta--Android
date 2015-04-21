@@ -4,7 +4,6 @@
 <p>This repository contains the source code for the Smilyo Android app.</p>
 <p>The app perform data synchronization with smilyo's server for accesseing exclusive content from Smilyo.com right on your device!</p>
 <p>With a elegant UI app entertains you with</p>
->>>>>>> 59b7ef7d0bffe9a861ed29aa5721198856317442
 <p> </p>
 <ol>
 <li>Exclusive access to Smilyo's Edu Network with a list of colleges options you can choose from
@@ -34,7 +33,6 @@ The Steps include
 <ul>
 <li>Ankit Karnany</li>
 <li>Vinodkumar Mundlamuri</li>
->>>>>>> 59b7ef7d0bffe9a861ed29aa5721198856317442
 </ul>
 <br>
 <i>To check the app on play store, please visit https://play.google.com/store/apps/details?id=com.smilyo.main</i>
