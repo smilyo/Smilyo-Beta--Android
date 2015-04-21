@@ -3,13 +3,15 @@
 <p> Note: URLs have been removed from the code for security concerns.</p>
 <p>This repository contains the source code for the Smilyo Android app.</p>
 <p>The app perform data synchronization with smilyo's server for accesseing exclusive content from Smilyo.com right on your device!</p>
-<p>With a elegant UI app entertains you with</p>
 <hr>
+<p><b>broad features of app</b>
 <ol>
 <li>Exclusive access to Smilyo's Edu Network with a list of colleges options you can choose from</li>
 <li>Smilyo Articles</li>
 <li>Smilyo Poems</li>
-</ol>
+<li>case studies for project flc by smilyo ngo</li>
+</ol></p>
+<hr>
 <p><b>Building Instruction</b></p>
 <p>The project is available for Eclipse Bundle.<br>
 The Steps include  
