@@ -4,7 +4,8 @@ package com.smilyo.main;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
+import android.webkit.WebSettings;
+import android.webkit.WebSettings.LayoutAlgorithm;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -21,6 +22,12 @@ public class Body extends Activity {
 		title = (TextView) findViewById(R.id.bodyTitle);
 		author = (TextView) findViewById(R.id.bodyAuthor);
 		body = (WebView) findViewById(R.id.body);
+		body.getSettings().setJavaScriptEnabled(true);
+		body.getSettings().setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
+		WebSettings settings = body.getSettings();
+		settings.setUseWideViewPort(true);
+		settings.setLoadWithOverviewMode(true);
+		settings.setBuiltInZoomControls(true);
 		title.setText(getIntent().getStringExtra("title"));
 		author.setText(getIntent().getStringExtra("author"));
 		body.loadData(getIntent().getStringExtra("body"), "text/html", "utf-8");
